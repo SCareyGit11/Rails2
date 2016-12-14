@@ -1,0 +1,13 @@
+<h1>hello sessions view page</h1>
+<p id="error"><%= notice %></p> 
+
+<form action="/sessions" method="post">
+	<input type="hidden" name="authenticity_token" value="form_authenticity_token">
+	<label>
+		Email<input type="text" name="email">
+	</label>
+	<label>
+		Password<input type="text" name="password">
+	</label>
+	<input type="submit" value="Log In">
+</form>

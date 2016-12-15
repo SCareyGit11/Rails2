@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: RailsII_production
-  username: RailsII
+  username: ubuntu
   password: <%= ENV['RAILSII_DATABASE_PASSWORD'] %>
